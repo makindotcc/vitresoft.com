@@ -49,6 +49,12 @@
                 <p class="contact-description">Zapraszamy do kontaktu z nami!</p>
             </div>
         </div>
-        <script>/* fix chrome bug that causes transition */</script>
+        <script>
+            /* 
+             * Fix chrome bug that causes transition start on page load by using this empty script tag.
+             * Credits: https://stackoverflow.com/a/42969608
+             * Bug tracker: https://crbug.com/332189 and https://crbug.com/167083
+             */
+        </script>
     </body>
 </html>
